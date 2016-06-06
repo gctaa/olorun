@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(header.css);
+@import url(footer.css);
+body {
+    font-family: Lato sans-serif;
+    margin-top: 9vw;
+    padding: 0;
+    background-color: #ffe680;
+    width: 100%;
+    max-width: 90vw;
+}
+.picture {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+/*---conserning info pages---*/
+}
+.info .left {
+    width: 48%;
+    float: left;
+}
+.info .right{
+    width: 48%;
+    float: right;
+}
+.info {
+    position: inline-block;
+}
+/*------*/
+
+main {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 1.5vw;
+}
+.firstword {
+    font-weight: 900;
+    font-size: 2.5vw;
+}
+.pageTitle {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.setboxbox{
+    display: block;
+    background-color: white;
+}
+.boxes {
+    background-color: #ffe680;
+    text-align: center;
+}
+.setbox {
+    width: 45%;
+    height: 20vw;
+    float: right;
+    display: inline-block;
+    border: dotted #555 1px;
+    text-align: center;
+    background-color: #ff7f04;
+    border-radius: 10px;
+    margin: 0.5vw;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.setbox:hover {
+    background-color: #e66f00;
+}
+.setbox p {
+    text-align: left;
+    padding-left: 1vw;
+
+}
+
+@media screen and (max-device-width: 480px) {
+    main {
+        font-size: 3vw;
+    }
+}
+hr {
+    border: 0;
+    width: 100%;
+    background-color: black;
+    color: black;
+    height: 4px;
+    display: block;
+}
