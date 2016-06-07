@@ -5,9 +5,9 @@ body {
     font-family: Lato sans-serif;
     margin-top: 9vw;
     padding: 0;
-    background-color: #ffe680;
-    width: 100%;
-    max-width: 90vw;
+    margin-left: 0vw;
+    background-color: #ffeb99;
+    width: 100vw;
 }
 .picture {
     width: 50%;
@@ -43,33 +43,46 @@ main {
 }
 .setboxbox{
     display: block;
-    background-color: white;
 }
 .boxes {
-    background-color: #ffe680;
+    background-color: #ffeb99;
     text-align: center;
+    display: table;
+    margin: auto;
 }
 .setbox {
-    width: 45%;
+    width: 30vw;
     height: 20vw;
     float: right;
-    display: inline-block;
-    border: dotted #555 1px;
+    display: table-cell;
+    border: dotted #ff8c1a .1vw;
     text-align: center;
-    background-color: #ff7f04;
-    border-radius: 10px;
-    margin: 0.5vw;
-    font-size: 20px;
+    margin-right: 8vw;
+    margin-bottom: 1.5vw;
     text-decoration: none;
     color: black;
+    background-color: #ffa64d;
+    opacity:.85;
 }
-.setbox:hover {
-    background-color: #e66f00;
+.setbox:first-child {
+    margin-right: 0vw;
+}
+.setbox h2{
+    font-size: 3vw;
+    margin-top:0vw;
+    padding-top:.4vw;
+    padding-bottom:.4vw;
+    background-color: #ff8c1a;
+    overflow: hide;
 }
 .setbox p {
+    margin-top: 1vw;
     text-align: left;
+    font-size: 3vw;
     padding-left: 1vw;
-
+}
+.setbox:hover {
+    background-color: #ffad33;
 }
 
 @media screen and (max-device-width: 480px) {
