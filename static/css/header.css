@@ -28,9 +28,11 @@ a#logo  {
     z-index: 999;
 }
 a#logo img {
-    height: 8vw;
+    height: 7vw;
     margin: 0.5;
+    padding:0.5vw;
 }
+
 header div#navb {
     display: none;
 }
