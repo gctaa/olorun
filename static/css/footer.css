@@ -5,6 +5,7 @@ footer {
     background-color: #ff7f04;
     margin-top: 5vw;
     height: 0vw;
+    overflow:hidden;
 }
 footer a {
     display: inline-block;
