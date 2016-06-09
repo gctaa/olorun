@@ -1,13 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(https://fonts.googleapis.com/css?family=Lora:300,400);
 @import url(header.css);
 @import url(footer.css);
 body {
-    font-family: Lato sans-serif;
+    font-family: 'Lora', serif;
     margin-top: 9vw;
     padding: 0;
     margin-left: 0vw;
     background-color: #ffeb99;
-    width: 100vw;
+}
+p {
+    font-size: 2.5vw;
 }
 .picture {
     width: 50%;
@@ -57,23 +60,25 @@ main {
     display: table-cell;
     border: dotted #ff8c1a .1vw;
     text-align: center;
-    margin-right: 8vw;
+    margin-right: 1.5vw;
     margin-bottom: 1.5vw;
     text-decoration: none;
     color: black;
     background-color: #ffa64d;
     opacity:.85;
+    border-radius:2vw;
 }
 .setbox:first-child {
     margin-right: 0vw;
 }
 .setbox h2{
-    font-size: 3vw;
+    font-size: 2.2vw;
     margin-top:0vw;
     padding-top:.4vw;
     padding-bottom:.4vw;
     background-color: #ff8c1a;
     overflow: hide;
+    border-radius: 2vw;
 }
 .setbox p {
     margin-top: 1vw;
@@ -92,7 +97,6 @@ main {
 }
 hr {
     border: 0;
-    width: 100%;
     background-color: black;
     color: black;
     height: 4px;
