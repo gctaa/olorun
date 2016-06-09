@@ -42,7 +42,7 @@ window.onload = window.onresize = function () {
 
 
 <body>
-<!--this is the php that includes the header-->
+<!-- This is the php that includes the header -->
 <?php include("header.inc"); ?>
 <main>
 ATIC Home
@@ -91,7 +91,7 @@ ATIC Home
 
 </main>
 
-<!--this is the footer-->
+<!-- This is the footer -->
 <?php include ("footer.inc"); ?>
 
 </body></html>

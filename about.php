@@ -40,7 +40,7 @@ window.onload = window.onresize = function () {
 </head>
 
 <body>
-<!--this is the php that includes the header-->
+<!-- This is the php that includes the header -->
 <?php include("header.inc"); ?>
 
 
@@ -75,7 +75,7 @@ window.onload = window.onresize = function () {
 </section>
 </main>
 
-<!--this is the footer-->
+<!-- This is the footer -->
 <?php include ("footer.inc"); ?>
 
 </body></html>

@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<!-- Currently not in use -->
 <footer> 
 <div class="valid">
 <a class="button" href="http://validator.w3.org/check/referer">
@@ -7,3 +9,4 @@
 <span class="bold">CSS</span> Valid!</a>
 </div>
 </footer>
+</html>
