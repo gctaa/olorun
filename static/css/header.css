@@ -11,6 +11,7 @@ header {
     margin-top: -9vw;
     overflow: hidden;
     z-index: 999;
+
 }
 
 header div, header h1 {
@@ -21,6 +22,7 @@ header div, header h1 {
 header h1 {
     font-size: 3.3vw;
     padding-right: 25vw;
+    font-family: Lato sans-serif;
 
 }
 a#logo  {
