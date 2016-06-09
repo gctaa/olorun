@@ -1,16 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:300,400);
 header {
     display: table;
     background: radial-gradient(ellipse at left, #ffb76b 0%,#ff7f04 70%,#ff7f04 93%,#ff7f04 94%,#ff7f04 94%,#ff7f04 100%);
     width: 100vw;
     height: 6vw;
-    font-family: "lato";
+    font-family: 'Lora', serif;
     position: fixed;
     left: 0;
     right: 0;
     box-shadow: -1vw .2vw 5vw black;
     margin-top: -9vw;
-    overflow: hidden;
-    z-index: 999;
+    z-index: 10;
 
 }
 
@@ -27,7 +27,7 @@ header h1 {
 }
 a#logo  {
     margin-right: 9vw;
-    z-index: 999;
+    z-index: 11;
 }
 a#logo img {
     height: 7vw;
@@ -53,10 +53,11 @@ nav#mainNav {
     position: fixed;
     top: 6.8vw;
     right: -4vw;
-    overflow: hidden;
     border-left-color: #333;
     border-radius: 10vw;
+    overflow: hidden;
     box-shadow: -1vw .2vw 5vw black;
+    -webkit-transform: translateZ(0)
 }
 nav#mainNav span {
     display: block;

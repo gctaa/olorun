@@ -8,10 +8,9 @@
     margin-left: 25%;
     border-style: solid;
     border-color: #888;
-    border-width: 1px;
-    z-index: 4;
+    border-width: .1vw;
+    z-index: 3;
     opacity: 0;
-
 }
 #slides {
 background-color: #ffeb99;
@@ -19,83 +18,42 @@ background-color: #ffeb99;
 }
 
 #slide1 {
-    -webkit-animation-name: slideshow;
     animation-name: slideshow;
-    -webkit-animation-duration: 25s;
     animation-duration: 25s;
-    -webkit-animation-delay: 0s;
     animation-delay: 0s;
-    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
 }
 
 #slide2 {
-    -webkit-animation-name: slideshow;
     animation-name: slideshow;
-    -webkit-animation-duration: 25s;
     animation-duration: 25s;
-    -webkit-animation-delay: 5s;
     animation-delay: 5s;
-    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
+    transform: translate3d(0, 0, 0);
 }
 
 #slide3 {
-    -webkit-animation-name: slideshow;
     animation-name: slideshow;
-    -webkit-animation-duration: 25s;
     animation-duration: 25s;
-    -webkit-animation-delay: 10s;
     animation-delay: 10s;
-    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
+    transform: translate3d(0, 0, 0);
 }
 
 #slide4 {
-    -webkit-animation-name: slideshow;
     animation-name: slideshow;
-    -webkit-animation-duration: 25s;
     animation-duration: 25s;
-    -webkit-animation-delay: 15s;
     animation-delay: 15s;
-    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
+    transform: translate3d(0, 0, 0);
 }
 
 #slide5 {
-    -webkit-animation-name: slideshow;
     animation-name: slideshow;
-    -webkit-animation-duration: 25s;
     animation-duration: 25s;
-    -webkit-animation-delay: 20s;
     animation-delay: 20s;
-    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
+    transform: translate3d(0, 0, 0);
 }
 
 @keyframes slideshow {

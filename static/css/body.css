@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
-@import url(https://fonts.googleapis.com/css?family=Lora:300,400);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lora);
 @import url(header.css);
 @import url(footer.css);
 body {
@@ -8,8 +8,12 @@ body {
     padding: 0;
     margin-left: 0vw;
     background-color: #ffeb99;
+    z-index: 1;
 }
-p {
+main div {
+    display: block;
+}
+main p {
     font-size: 2.5vw;
 }
 .picture {
