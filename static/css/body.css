@@ -32,6 +32,8 @@ main p {
 }
 .info {
     position: inline-block;
+    width:100%;
+    height:40vw;
 }
 /*------*/
 
