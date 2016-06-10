@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--this is the inc file for the headesr it works just like html and is inserted into any body file-->
 <html lang ="en">
 <link rel="stylesheet" href="static/css/header.css">
 <header>

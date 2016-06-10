@@ -6,8 +6,6 @@
 
 <link rel="icon" href="static/media/Olorun.png">
 <link rel="stylesheet" href="static/css/body.css">
-<link rel="stylesheet" href="static/css/header.css">
-<link rel="stylesheet" href="static/css/footer.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
 </script>
 <script>

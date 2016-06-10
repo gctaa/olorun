@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Currently not in use -->
+<!-- this is the inc file for the footer it is written just like an html file but it is added at the end of every php file-->
 <footer> 
 <div class="valid">
 <a class="button" href="http://validator.w3.org/check/referer">
