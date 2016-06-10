@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Olorun About</title>
 
-<link rel="icon" href="static/media/Olorun.png">
+<link rel="icon" href="static/media/OlorunSM.png">
 <link rel="stylesheet" href="static/css/body.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
 </script>

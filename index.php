@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Olorun Home</title>
-<link rel="icon" href="static/media/Olorun.png">
+<link rel="icon" href="static/media/OlorunSM.png">
 <link rel="stylesheet" href="static/css/body.css">
 <link rel="stylesheet" href="static/css/info.css">
 <link rel="stylesheet" href="static/css/slide.css">
