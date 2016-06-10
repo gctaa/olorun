@@ -1,3 +1,8 @@
+/* The slide show works alittle strangely which has caused me great grief. Thus for the anyone who wants to edit I have included these intructions.  */
+
+/* The slideshow works by stacking images ontop of eachother and then changing the opacity of each image at a time. */
+
+/* .stacked is the actual window where the slides will be in. You don't need to edit it to change the slideshow slides. */
 .stacked {
     display: block;
     height: 34vw;
@@ -12,18 +17,20 @@
     z-index: 3;
     opacity: 0;
 }
+/* Slides is the div that all the imgs are in and it is also resized by Kevin Cole's java script */
 #slides {
-background-color: #ffeb99;
-
+    background-color: #ffeb99;
 }
 
+/* Each image lasts 5 seconds at 1 opacity which is why each slide is delayed for 5 seonds and then on. */
 #slide1 {
     animation-name: slideshow;
     animation-duration: 25s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
+    transform: translate3d(0, 0, 0);
 }
-
+/* Oh and you can just ignore translate3d, it just makes sure my slide doesn't 3d on me (bug fix) */
 #slide2 {
     animation-name: slideshow;
     animation-duration: 25s;
@@ -55,7 +62,7 @@ background-color: #ffeb99;
     animation-iteration-count: infinite;
     transform: translate3d(0, 0, 0);
 }
-
+/* Now there are 5 images in this certain slideshow, which is conventient for me because 100/5 is a nice fraction of 20. So I suggest having the number of slides make a nice fraction. But as one can see the animation lasts longer then 20%. That extra 10% is the translation period from each slide to slide. */
 @keyframes slideshow {
 0% {
     opacity: 0;
