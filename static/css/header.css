@@ -22,7 +22,7 @@ header div, header h1 {
 header h1 {
     font-size: 3.3vw;
     padding-right: 25vw;
-    font-family: Lato sans-serif;
+    font-family: 'Lato sans-serif';
 
 }
 a#logo  {
@@ -31,7 +31,7 @@ a#logo  {
 }
 a#logo img {
     height: 7vw;
-    margin: 0.5;
+    margin: 0vw;
     padding:0.5vw;
 }
 
@@ -57,7 +57,6 @@ nav#mainNav {
     border-radius: 10vw;
     overflow: hidden;
     box-shadow: -1vw .2vw 5vw black;
-    -webkit-transform: translateZ(0)
 }
 nav#mainNav span {
     display: block;

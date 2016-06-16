@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!-- this is the inc file for the footer it is written just like an html file but it is added at the end of every php file-->
 <footer> 
 <div class="valid">
@@ -9,4 +8,5 @@
 <span class="bold">CSS</span> Valid!</a>
 </div>
 </footer>
+</body>
 </html>

@@ -1,61 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Olorun Home</title>
-<link rel="icon" href="static/media/OlorunSM.png">
-<link rel="stylesheet" href="static/css/body.css">
-<link rel="stylesheet" href="static/css/info.css">
-<link rel="stylesheet" href="static/css/slide.css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
-</script>
-<script>
-$(document).ready(function() {
-  $('div#navb').click(function() {
-    $('nav#mainNav').addClass('mobileNav');
-    $('header div#navb').addClass('hide');
-    $('header div#close').removeClass('hide');
-  });
-  $('header div#close').click(function() {
-    $('nav#mainNav').removeClass('mobileNav');
-    $('header div#navb').removeClass('hide');
-    $('header div#close').addClass('hide');
-  });
-});
-</script>
-<script type="text/javascript">
-// Written by Kevin Cole [kjcole@ubuntu.com] 2014.10.24
-//
-// Dynamically resize the slideshow parent div to the size of the
-// auto-resizing images within it. Sadly, it appears I cannot
-// force the slideshow parent div to resize any other way. Bugger.
-
-window.onload = window.onresize = function () {
-  var slides = document.getElementById("slides");
-  var slide  = slides.children[0];
-  slides.style.height = slide.offsetHeight + "px";
-}
-</script>
-</head>
-
-
-<body>
-<!-- This is the php that includes the header -->
 <?php include("header.inc"); ?>
+<!-- This is the php that includes the header -->
 <main>
+<section>
 ATIC Home
-<h1 class="pageTitle">Home</h1>
+<h2 class="pageTitle">Home</h2>
 <!-- Page title above. <hr> is the weird break black line below. Never knew about it till now -->
 <hr>
 
-<section>
 <!-- Slideshow below -->
 <div id="slides" style="height: 142px;">
-    <img id="slide1" class="stacked" src="static/media/projectImages/Building.jpg">
-    <img id="slide2" class="stacked" src="static/media/projectImages/diconnecting.jpg">
-    <img id="slide3" class="stacked" src="static/media/projectImages/measuring.jpg">
-    <img id="slide4" class="stacked" src="static/media/projectImages/measuringvoltage.jpg">
-    <img id="slide5" class="stacked" src="static/media/projectImages/takinglux.jpg">
+    <img id="slide1" class="stacked" src="static/media/projectImages/Building.jpg" alt="Building">
+    <img id="slide2" class="stacked" src="static/media/projectImages/diconnecting.jpg" alt="Disconnecting">
+    <img id="slide3" class="stacked" src="static/media/projectImages/measuring.jpg" alt="Measuring">
+    <img id="slide4" class="stacked" src="static/media/projectImages/measuringvoltage.jpg" alt="voltage">
+    <img id="slide5" class="stacked" src="static/media/projectImages/takinglux.jpg" alt="lux">
 </div>
 
 <!-- This is a discription of the website underneath the slideshow -->
@@ -91,5 +49,3 @@ ATIC Home
 
 <!-- This is the footer -->
 <?php include ("footer.inc"); ?>
-
-</body></html>

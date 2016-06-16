@@ -31,7 +31,7 @@ main p {
     float: right;
 }
 .info {
-    position: inline-block;
+    display: inline-block;
 }
 /*------*/
 
@@ -81,7 +81,7 @@ main {
     padding-top:.4vw;
     padding-bottom:.4vw;
     background-color: #ff8c1a;
-    overflow: hide;
+    overflow: hidden;
     border-radius: 2vw;
 }
 .setbox p {
@@ -102,7 +102,7 @@ main {
 hr {
     border: 0;
     background-color: black;
-    color: black;
+    color: white;
     height: 4px;
     display: block;
 }
