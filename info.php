@@ -1,16 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<!-- This is the php that includes the header -->
 <?php include("header.inc"); ?>
 
-<body>
 <main>
 
 <!-- These sections can be repeated as many times as nessisary to organize information(15yy here to copy) -->
-<section class="info">
+<div class="info">
 
 <!-- This is the main picture for the page -->
-<img class="left" src="static/media/projectImages/acc_sign.jpg"/>
+<img class="left" src="static/media/projectImages/acc_sign.jpg" alt="the picture dun broke"/>
 
 <!-- This is a discription of the website underneath the picture -->
 <section class="right">
@@ -20,15 +16,15 @@
 </section>
 
 <!-- This is the black line that is at the bottom --> 
-</section>
+</div>
 
 <hr>
 
 <!-- These sections can be repeated as many times as nessisary to organize information(19yy here to copy) -->
-<section class="info">
+<div class="info">
 
 <!-- This is the main picture for the page -->
-<img class="right" src="static/media/projectImages/acc_sign.jpg"/>
+<img class="right" src="static/media/projectImages/acc_sign.jpg" alt="the picture dun broke"/>
 
 <!-- This is a discription of the website underneath the picture -->
 <section class="left">
@@ -38,15 +34,15 @@
 </section>
 
 <!-- This is the black line that is at the bottom --> 
-</section>
+</div>
 
 <hr>
 
 <!-- These sections can be repeated as many times as nessisary to organize information(19yy here to copy) -->
-<section class="info">
+<div class="info">
 
 <!-- This is the main picture for the page -->
-<img class="left" src="static/media/projectImages/acc_sign.jpg"/>
+<img class="left" src="static/media/projectImages/acc_sign.jpg" alt="the picture dun broke"/>
 
 <!-- This is a discription of the website underneath the picture -->
 <section class="right">
@@ -56,15 +52,15 @@
 </section>
 
 <!-- This is the black line that is at the bottom --> 
-</section>
+</div>
 
 <hr>
 
 <!-- These sections can be repeated as many times as nessisary to organize information(19yy here to copy) -->
-<section class="info">
+<div class="info">
 
 <!-- This is the main picture for the page -->
-<img class="right" src="static/media/projectImages/acc_sign.jpg"/>
+<img class="right" src="static/media/projectImages/acc_sign.jpg" alt="the picture dun broke"/>
 
 <!-- This is a discription of the website underneath the picture -->
 <section class="left">
@@ -74,15 +70,15 @@
 </section>
 
 <!-- This is the black line that is at the bottom --> 
-</section>
+</div>
 
 <hr>
 
 <!-- These sections can be repeated as many times as nessisary to organize information(19yy here to copy) -->
-<section class="info">
+<div class="info">
 
 <!-- This is the main picture for the page -->
-<img class="left" src="static/media/projectImages/acc_sign.jpg"/>
+<img class="left" src="static/media/projectImages/acc_sign.jpg" alt="the picture dun broke"/>
 
 <!-- This is a discription of the website underneath the picture -->
 <section class="right">
@@ -92,15 +88,15 @@
 </section>
 
 <!-- This is the black line that is at the bottom --> 
-</section>
+</div>
 
 <hr>
 
 <!-- These sections can be repeated as many times as nessisary to organize information(19yy here to copy) -->
-<section class="info">
+<div class="info">
 
 <!-- This is the main picture for the page -->
-<img class="right" src="static/media/projectImages/acc_sign.jpg"/>
+<img class="right" src="static/media/projectImages/acc_sign.jpg" alt="the picture dun broke"/>
 
 <!-- This is a discription of the website underneath the picture -->
 <section class="left">
@@ -109,9 +105,7 @@
 </section>
 
 <!-- This is the black line that is at the bottom --> 
-</section>
+</div>
 <!-- This is the footer -->
-
+</main>
 <?php include ("footer.inc"); ?>
-
-</body></html>
