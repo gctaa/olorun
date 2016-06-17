@@ -52,8 +52,8 @@ window.onload = window.onresize = function () {
 <!--this list is for the nav bar-->
 <nav id="mainNav">
   <span><a href="about.php">About Olorun</a></span>
-  <span><a href="/project">the project</a></span>
-  <span><a href="info.php">info</a></span>
-  <span><a href="/contact">Contact Us</a></span>
+  <span><a href="">The Project</a></span>
+  <span><a href="info.php">Info</a></span>
+  <span><a href="">Contact Us</a></span>
 </nav>
 </header>

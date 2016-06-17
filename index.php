@@ -29,18 +29,18 @@ ATIC
     <h2>About olorun</h2>
     <p>Learn more about the Olorun project</p>
   </a>
-  <a class="setbox" href="/project">
+  <a class="setbox" href="">
     <h2>What are we doing?</h2>
     <p>Learn more about the Olorun project is currently involved in</p>
   </a>
   </div>
 <div class="boxes">
   <a class="setbox" href="info.php">
-    <h2>info</h2>
-    <p>information about our projects</p>
+    <h2>Info</h2>
+    <p>Information about our projects</p>
   </a>
-  <a class="setbox" href="/contact">
-    <h2>Contact us</h2>
+  <a class="setbox" href="">
+    <h2>Contact Us</h2>
     <p>For more information contact us by clicking here!</p>
   </a>
 </div>
