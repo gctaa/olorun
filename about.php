@@ -5,7 +5,6 @@
 
 <!-- These sections can be repeated as many times as nessisary to organize information(15yy here to copy) -->
 <section class="info">
-ATIC 
 <h2 class="pageTitle">About</h2>
 <!-- Page title above. <hr> is the weird break black line below. Never knew about it till now -->
 <hr>
