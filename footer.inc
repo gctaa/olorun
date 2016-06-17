@@ -9,4 +9,3 @@
 <span class="bold">CSS</span> Valid!</a>
 </div>
 </footer>
-</html>
