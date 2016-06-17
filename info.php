@@ -12,7 +12,7 @@
 <section class="right">
 
 <h2>What gave you the idea for Project Olorun?</h2>
-<p>when mr. Johnson arrived at APS in 2014 the school already had green intentions. So he came up with the idea of students being able to use solar energy to charge their laptops and smartphones. From there he came up with an idea for a pergola which would serve both a functional and asthetic purpose.</p>
+<p>When mr. Johnson arrived at APS in 2014 the school already had green intentions. So he came up with the idea of students being able to use solar energy to charge their laptops and smartphones. From there he came up with an idea for a pergola which would serve both a functional and asthetic purpose.</p>
 </section>
 
 <!-- This is the black line that is at the bottom --> 
