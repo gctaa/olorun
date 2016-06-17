@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="static/css/header.css">
 <link rel="icon" href="static/media/OlorunSM.png">
 <link rel="stylesheet" href="static/css/body.css">
-<link rel="stylesheet" href="static/css/info.css">
 <link rel="stylesheet" href="static/css/slide.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
 </script>

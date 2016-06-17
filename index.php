@@ -2,7 +2,7 @@
 <!-- This is the php that includes the header -->
 <main>
 <section>
-ATIC Home
+ATIC
 <h2 class="pageTitle">Home</h2>
 <!-- Page title above. <hr> is the weird break black line below. Never knew about it till now -->
 <hr>
