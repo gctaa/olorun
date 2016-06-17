@@ -1,4 +1,3 @@
-=======
 <?php include("header.inc"); ?>
 <!-- This is the php that includes the header -->
 <body>
